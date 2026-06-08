@@ -12,6 +12,10 @@ public class DoctorsModule extends BaseClass{
 		Reporter.log("Create Patient",true);
 		Thread.sleep(9000);  
 	}
-	
+	@Test
+	public void testCreatePatientOnline() throws InterruptedException {
+		Reporter.log("Create online Patient",true);
+		Thread.sleep(9000);  
+	}
 	
 }
